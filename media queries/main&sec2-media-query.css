@@ -1,0 +1,76 @@
+@media screen and (max-width: 1245px) {
+  #section1 main .svg img {
+    height: 25rem;
+  }
+  .svg {
+    text-align: start;
+    margin-top: 05rem;
+  }
+
+  #section1 main .tagline h4 {
+    font-size: 44px !important;
+  }
+  #section1 main .description p {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #section1 main .svg img {
+    height: 20rem;
+  }
+  .svg {
+    text-align: start;
+  }
+
+  #section1 main .tagline h4 {
+    font-size: 38px !important;
+  }
+  #section1 main .description p {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  #section1 main .svg img {
+    height: 15rem;
+  }
+  .svg {
+    text-align: center;
+  }
+
+  #section1 main .tagline h4 {
+    font-size: 34px !important;
+  }
+  #section1 main .description p {
+    font-size: 15px !important;
+  }
+  #section1 main button {
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 574px) {
+  main {
+    position: relative;
+  }
+  .more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -15%;
+    left: 38%;
+  }
+}
+/* section 2 styling */
+@media screen and (max-width: 750px) {
+  .clients img {
+    height: 8vh;
+  }
+}
+@media screen and (max-width: 822px) {
+  .clients {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+}

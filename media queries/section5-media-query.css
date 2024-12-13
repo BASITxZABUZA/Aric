@@ -1,0 +1,13 @@
+@media screen and (max-width: 750px) {
+    .contact-us{
+      flex-direction: column;
+      gap: 2rem;
+    }
+    #section5{
+      min-height: fit-content;
+      padding: 3rem 0;
+    }
+    .contactcard{
+      padding: 3rem 5rem;
+    }
+  }
